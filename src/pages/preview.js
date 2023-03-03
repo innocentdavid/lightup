@@ -1,14 +1,23 @@
-import { Header } from '../../build/header'
-import { Hero } from '../../build/hero'
-import { Feature } from '../../build/feature'
-import { getBlockSetting } from '../../earlybird/settingSchema.mjs'
+import React from 'react'
 
-export default function Home() {
+export default function Preview() {
   return (
-    <div>
-      <Header.render data={{ setting: getBlockSetting(Header.settingSchemas) }} />
-      <Hero.render data={{ setting: getBlockSetting(Hero.settingSchemas) }} />
-      <Feature.render data={{ setting: getBlockSetting(Feature.settingSchemas) }} />
-    </div>
+    <div>Preview</div>
   )
 }
+
+
+// import { Header } from '../../build/header'
+// import { Hero } from '../../build/hero'
+// import { Feature } from '../../build/feature'
+// import { getBlockSetting } from '../../earlybird/settingSchema.mjs'
+
+// export default function Home() {
+//   return (
+//     <div>
+//       <Header.render data={{ setting: getBlockSetting(Header.settingSchemas) }} />
+//       <Hero.render data={{ setting: getBlockSetting(Hero.settingSchemas) }} />
+//       <Feature.render data={{ setting: getBlockSetting(Feature.settingSchemas) }} />
+//     </div>
+//   )
+// }

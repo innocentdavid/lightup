@@ -1,4 +1,4 @@
-import { Image } from '@earlybird/blocks';
+import Image from "next/image";
 
 export default function Hero() {
   return (

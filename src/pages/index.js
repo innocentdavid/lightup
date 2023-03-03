@@ -1,6 +1,5 @@
 import Header from '@/components/header'
 import Hero from '@/components/hero'
-import Feature from '@/components/feature'
 import Logos from '@/components/logos';
 import EasyPhotoEditing from '@/components/easyPhotoEditing';
 import PricingPlan from '@/components/pricingPlan';
@@ -18,7 +17,6 @@ export default function Home() {
       <PricingPlan />
       <GetStarted />
       <Footer />
-      {/* <Feature /> */}
     </div>
   );
 }
